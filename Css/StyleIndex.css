@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(148, 93, 26);
+}
+
+nav {
+    background-color: #d4f793;
+    
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around; /* Distribuye los elementos equitativamente */
+    padding: 0;
+
+}
+
+li {
+    margin: 0;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(61, 61, 99);
+}
+
+li:hover{
+  transition: 250ms;
+  background-color: #000000;
+}
+
+.imgPython{
+    margin-top: 5%;
+    margin-left: 24%;
+}
+
+h3{
+    margin-top: 10% ;
+    background-color: rgb(204, 141, 223);
+    text-align: center;
+}
